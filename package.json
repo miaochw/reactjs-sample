@@ -1,5 +1,5 @@
 {
-  "name": "react-sample",
+  "name": "reactjs-sample",
   "version": "0.0.1",
   "description": "React 16.0 boilerplate with react-router-dom, redux & webpack 4.x",
   "main": "src/index.js",
@@ -23,7 +23,7 @@
     "type": "git",
     "url": "git+https://github.com/Dante-dan/react-sample-javascript.git"
   },
-  "author": "duanjl <634344393@qq.com>",
+  "author": "miaochw <88010116@qq.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Dante-dan/react-sample/issues"
