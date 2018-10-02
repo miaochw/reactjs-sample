@@ -108,6 +108,6 @@ body
 ### git 命令
 ```
 $ git add  "xx.xx"
-$ git commit -m "first commit"
+$ git commit -m "first commit" filename
 $ git push -u origin master
 ```
