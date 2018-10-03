@@ -13,7 +13,7 @@
   <link rel="preload" href="<%= htmlWebpackPlugin.files.css[chunk] %>"  as="style">
   <% } %>
   <% for (var chunk in htmlWebpackPlugin.files.chunks) { %>
-  <link rel="preload" href="<%= htmlWebpackPlugin.files.chunks[chunk].entry %>" as="script">
+  <link rel="preload" href=".<%= htmlWebpackPlugin.files.chunks[chunk].entry %>" as="script">
   <% } %>
 
 </head>
@@ -29,3 +29,6 @@
   }
 </style>
 </html>
+<% for (var chunk in htmlWebpackPlugin.files.chunks) { %>
+  <script type=text/javascript src=".<%= htmlWebpackPlugin.files.chunks[chunk].entry %>"> </script>
+  <% } %>

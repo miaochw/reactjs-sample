@@ -10,7 +10,8 @@ function resolve (dir) {
 module.exports = {
   context: path.resolve(__dirname, '../'),
   entry: {
-    index: ['babel-polyfill','./src/index.js']
+    index: ['babel-polyfill','./src/index.js'],
+    page1: ['babel-polyfill','./src/pages/page1.js']
   },
   output: {
     path: path.resolve(__dirname, '../dist'),
