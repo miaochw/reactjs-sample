@@ -1,5 +1,5 @@
 {
-  "name": "react-sample",
+  "name": "reactjs-sample",
   "version": "0.0.1",
   "description": "React 16.0 boilerplate with react-router-dom, redux & webpack 4.x",
   "main": "src/index.js",
