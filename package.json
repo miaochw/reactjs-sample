@@ -23,7 +23,7 @@
     "type": "git",
     "url": "git+https://github.com/Dante-dan/react-sample-javascript.git"
   },
-  "author": "duanjl <634344393@qq.com>",
+  "author": "miaochw <88010116@qq.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Dante-dan/react-sample/issues"
@@ -83,10 +83,7 @@
     "extract-text-webpack-plugin": "^3.0.2",
     "file-loader": "^2.0.0",
     "friendly-errors-webpack-plugin": "^1.7.0",
-    "highcharts": "^6.1.2",
-    "highcharts-react-official": "highcharts/highcharts-react",
     "html-webpack-plugin": "^3.2.0",
-    "husky": "^0.14.3",
     "jest": "^23.6.0",
     "less": "^3.8.1",
     "less-loader": "^4.1.0",
@@ -111,14 +108,8 @@
     "webpack-merge": "^4.1.4"
   },
   "dependencies": {
-    "antd": "^3.7.0",
     "babel-polyfill": "^6.26.0",
-    "js-cookie": "^2.2.0",
     "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-loadable": "^5.5.0",
-    "react-redux": "^5.0.7",
-    "react-router-dom": "^4.3.1",
-    "redux": "^4.0.0"
+    "react-dom": "^16.4.1"
   }
 }

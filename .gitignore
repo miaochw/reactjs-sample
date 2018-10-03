@@ -7,6 +7,9 @@ yarn-debug.log*
 yarn-error.log*
 /test/coverage/
 selenium-debug.log
+yarn.lock
+sh.exe.stackdump
+vim.exe.stackdump
 
 # Editor directories and files
 .idea
